@@ -21,7 +21,6 @@ After configuring `conf.py`, choose the interface to run:
 - **CLI**: Execute `main.py`
 - **GUI**: Execute `app.py` inside the `GUI` folder
 
-> **Note**: If you want to load a previously saved board, ensure that the board size in `conf.py` matches the saved board's size.
 
 ---
 
@@ -35,6 +34,7 @@ If you choose an algorithm, a list of available algorithms will be displayed for
 You must then choose whether to:
 - **Generate a new board**, selecting a difficulty level, or
 - **Load a previously saved board** (found in `docfiles/savefile.txt`)
+> **Note**: If you want to load a previously saved board, ensure that the board size in `conf.py` matches the saved board's size.
 
 ### Gameplay & Solution Process
 - If an **algorithm** is solving the puzzle, it will:
@@ -52,6 +52,7 @@ You must then choose whether to:
 When launched, the GUI will first prompt you to:
 1. **Select a player (human or algorithm)**
 2. **Load a saved board (if available) or start a new game by selecting a difficulty level**
+> **Note**: If you want to load a previously saved board, ensure that the board size in `conf.py` matches the saved board's size.
 
 ### Gameplay Features
 - The interface displays:
