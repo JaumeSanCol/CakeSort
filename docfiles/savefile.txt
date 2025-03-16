@@ -1,0 +1,1 @@
+{"board": [[{"numbers": [2, 3, 2, 1, 1, 4], "main": [2, 1], "empty": 0}, 0, {"numbers": [3, 5, 2, 5, 1, 0], "main": [5], "empty": 1}], [0, 0, 0], [0, 0, {"numbers": [4, 4, 1, 2, 1, 0], "main": [4, 1], "empty": 1}]], "index": 1, "score": 0, "rows": 3, "cols": 3}

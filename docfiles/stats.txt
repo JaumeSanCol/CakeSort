@@ -1,0 +1,18 @@
+A* heurstic 1:[(0, 2), (1, 2), (2, 0), (2, 1), (2, 2), (1, 0), (1, 1), (2, 0), (0, 1), (0, 1)] N: 80249	SCORE: 4	Time: 28.75	LEVEL 1	ROWS: 3	COLS: 3
+GS heuristic 2:[(0, 2), (1, 2), (2, 1), (0, 1), (2, 1), (1, 0), (1, 1), (1, 1), (2, 2), (1, 0)] N: 297	SCORE: 10	Time: 0.10	LEVEL 3	ROWS: 3	COLS: 3
+Breadth First Search:[] N: 16	SCORE: 1	Time: 0.01	LEVEL 0	ROWS: 3	COLS: 3
+Breadth First Search:[] N: 513	SCORE: 0	Time: 0.08	LEVEL 0	ROWS: 3	COLS: 3
+GS heuristic 1:[] N: 1	SCORE: 0	Time: 0.00	LEVEL 0	ROWS: 3	COLS: 3
+GS heuristic 1:[] N: 1	SCORE: 0	Time: 0.00	LEVEL 3	ROWS: 3	COLS: 3
+GS heuristic 1:[(1, 0), (2, 0), (1, 1), (2, 1), (0, 2), (0, 1), (1, 2), (1, 1), (1, 1), (0, 1)] N: 9523	SCORE: 6	Time: 3.01	LEVEL 2	ROWS: 3	COLS: 3
+GS heuristic 1:[] N: 1	SCORE: 0	Time: 0.00	LEVEL 0	ROWS: 3	COLS: 3
+GS heuristic 1:[(1, 2), (2, 2), (1, 1), (2, 1), (0, 2), (0, 1), (1, 0), (1, 1), (1, 1), (0, 1)] N: 33553	SCORE: 6	Time: 16.84	LEVEL 1	ROWS: 3	COLS: 3
+A* heurstic 1:[] N: 1	SCORE: 0	Time: 0.00	LEVEL 0	ROWS: 3	COLS: 3
+A* heurstic 1:[(0, 2), (1, 2), (2, 0), (2, 1), (2, 2), (1, 0), (1, 1), (2, 0), (0, 1), (0, 1)] N: 80249	SCORE: 4	Time: 28.30	LEVEL 1	ROWS: 3	COLS: 3
+A* heuristic 2:[(1, 2), (2, 2), (1, 1), (2, 1), (0, 2), (0, 1), (1, 0), (1, 1), (1, 1), (0, 1)] N: 59158	SCORE: 6	Time: 25.10	LEVEL 1	ROWS: 3	COLS: 3
+Depth First Search:[] N: 2192	SCORE: 0	Time: 0.41	LEVEL 0	ROWS: 3	COLS: 3
+GS heuristic 1:[] N: 1394	SCORE: 0	Time: 0.43	LEVEL 0	ROWS: 3	COLS: 3
+GS heuristic 2:[] N: 1394	SCORE: 0	Time: 0.43	LEVEL 0	ROWS: 3	COLS: 3
+A* heurstic 1:[] N: 1394	SCORE: 0	Time: 0.43	LEVEL 0	ROWS: 3	COLS: 3
+Player:[(0, 2), (1, 2), (2, 1), (0, 1), (2, 1), (1, 0), (1, 1), (1, 1), (1, 0), (2, 2)] N: 10	SCORE: 5	Time: 15.17	LEVEL 3	ROWS: 3	COLS: 3
+Player:[(0, 2), (1, 2), (2, 1), (0, 1), (2, 1), (1, 0), (1, 1), (1, 1), (1, 0), (2, 2)] N: 10	SCORE: 5	Time: 15.17	LEVEL 3	ROWS: 3	COLS: 3
