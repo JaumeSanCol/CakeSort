@@ -61,7 +61,7 @@ def main_menu():
         choice = ask_choice("Which Algorithm? (1-6): ", 1, 6)
         if choice==1:player_type = "Depth First Search" 
         elif choice==2: player_type="Breadth First Search"
-        elif choice==3: player_type="A* heurstic 1"
+        elif choice==3: player_type="A* heuristic 1"
         elif choice==4: player_type="A* heuristic 2"
         elif choice==5: player_type="GS heuristic 1"
         elif choice==6: player_type="GS heuristic 2"

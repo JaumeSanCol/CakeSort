@@ -9,8 +9,7 @@ from search.depth import *
 from search.heuS import *
 from search.breadth import *
 from search.greedy import *
-
-
+from conf import *
 
 
 
@@ -71,6 +70,7 @@ elif player_type=="Player":
 
     print_stats_pl(score)
 else:
+    new_score=0
     key=f"{player_type}/{level}/{ROWS}/{COLS}"
     start = time.perf_counter()
     if key in history:print(f"\n   Loading ... (estimated: {history[key]}s)")
@@ -79,7 +79,7 @@ else:
         sol,count,new_score=depth_first(board,i)
     elif player_type=="Breadth First Search":
         sol,count,new_score=breadth_first(board,i)
-    elif player_type=="A* heurstic 1":
+    elif player_type=="A* heuristic 1":
         sol,count,new_score=heuristic_search(board,i,1)
     elif player_type=="A* heuristic 2":
         sol,count,new_score=heuristic_search(board,i,2)
@@ -90,7 +90,18 @@ else:
     end = time.perf_counter() 
     time_cost=end-start
     score=score+new_score
-
+    time_cost2=time_cost
+    
+    if player_type=="GS heuristic 2" or player_type=="A* heuristic 2":
+        print(f"Tiempo contando heuristica:{time_cost}")
+        overcost=AVRG_H2*count
+        time_cost=time_cost-overcost
+        print(f"Tiempo sin contar heuristica:{time_cost}")
+    elif player_type=="GS heuristic 1" or player_type=="A* heuristic 1":
+        print(f"Tiempo contando heuristica:{time_cost}")
+        overcost=AVRG_H1*count
+        time_cost=time_cost-overcost
+        print(f"Tiempo sin contar heuristica:{time_cost}")
     if sol!=[]:
         #print(f"Nodos explorados con DFS: {nodes_explored}")
         tuplas = sol

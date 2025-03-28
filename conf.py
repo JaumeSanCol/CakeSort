@@ -4,6 +4,10 @@ from objects.cake import Cake
 ROWS= 3
 COLS= 3
 
+#execution Heuristics
+AVRG_H1= 0.0000013244
+AVRG_H2= 0.0000033909
+
 LIST_CAKES = [
     Cake([3, 5, 2, 5,1,0]), Cake([1, 4, 4, 1,3,5]), Cake([1, 1, 1, 2,2,0]), Cake([1, 3, 4, 5,2,0]), Cake([2, 3, 2, 1,1,4]),
     Cake([4, 4, 1, 2,1,0]), Cake([0, 1, 3, 0,4,0]), Cake([5, 4, 3, 4,0,0]), Cake([1, 2, 3, 5,2,2]), Cake([3, 1, 4, 2,2,2])

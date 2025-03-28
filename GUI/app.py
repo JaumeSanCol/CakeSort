@@ -320,6 +320,14 @@ else:
 
     end = time.perf_counter()
     time_cost = end - start
+    if player_type=="GS heuristic 2" or player_type=="A* heuristic 2":
+        print(f"Tiempo contando heuristica:{time_cost}")
+        time_cost=time_cost-AVRG_H2*nodes_explored
+        print(f"Tiempo sin contar heuristica:{time_cost}")
+    elif player_type=="GS heuristic 1" or player_type=="A* heuristic 1":
+        print(f"Tiempo contando heuristica:{time_cost}")
+        time_cost=time_cost-AVRG_H1*nodes_explored
+        print(f"Tiempo sin contar heuristica:{time_cost}")
     score += new_score
     print(sol)
     if sol:
