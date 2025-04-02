@@ -10,19 +10,20 @@ AVRG_H2= 0.0000033909
 
 LIST_CAKES = [
     Cake([3, 5, 2, 5,1,0]), Cake([1, 4, 4, 1,3,5]), Cake([1, 1, 1, 2,2,0]), Cake([1, 3, 4, 5,2,0]), Cake([2, 3, 2, 1,1,4]),
-    Cake([4, 4, 1, 2,1,0]), Cake([0, 1, 3, 0,4,0]), Cake([5, 4, 3, 4,0,0]), Cake([1, 2, 3, 5,2,2]), Cake([3, 1, 4, 2,2,2])
+    Cake([4, 4, 1, 2,1,0]), Cake([0, 1, 3, 0,4,0]), Cake([5, 4, 3, 4,0,0]), Cake([1, 2, 3, 5,2,2]), Cake([3, 1, 4, 2,2,2]),
+    Cake(["X","X","X","X","X","X"])
 ]
 
 
 # History of previously recorded time scores for default scenario
 history={
-    "Breadth First Search/1/3/3":26,  
-    "Breadth First Search/2/3/3":3, 
-    "A* heurstic 1/1/3/3":28,
-    "A* heurstic 2/1/3/3":25,
-    "A* heurstic 2/2/3/3":24,
-    "GS heuristic 1/1/3/3":17,
-    "GS heuristic 2/1/3/3":15,
+    "Breadth First Search/1/3/3":31,  
+    "Breadth First Search/2/3/3":4, 
+    "A* heuristic 1/1/3/3":34,
+    "A* heuristic 2/1/3/3":30,
+    "A* heuristic 2/2/3/3":4,
+    "GS heuristic 1/1/3/3":21,
+    "GS heuristic 2/1/3/3":19,
 
     
 

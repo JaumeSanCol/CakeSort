@@ -11,7 +11,19 @@ from search.breadth import *
 from search.greedy import *
 from conf import *
 
+import tracemalloc
 
+
+# # Uncomment to calculate memory usage
+# tracemalloc.start()
+b=generate_board(1)
+b[0][0] = 0
+b[0][1] = Cake([1, 1, 1, 1,1,0])
+b[1][0] = Cake([1, 1, 0, 0,0,0])
+b[2][1] = Cake([1, 1, 1, 1,1,0])
+print_board(b)
+print_next_cake(10)
+time.sleep(1000)
 
 def ask_for_hint(board,i):
     #its fast in all levels and even though it will not give the best move, it won't make the user lose.
@@ -19,11 +31,6 @@ def ask_for_hint(board,i):
     if sol==[]:print(f"HINT: It's too late my friend")
     else:
         print(f"HINT:{sol[0]}")
-
-
-
-
-
 
 try:
     player_type,board,level,i,score=main_menu()
@@ -132,5 +139,10 @@ else:
 
     print_stats_al(score,sol,count,time_cost)
     save_statistics(player_type, sol, count, score, time_cost, level)
-
-
+    
+# # Print the memory usage in Mb
+# base,peak=tracemalloc.get_traced_memory()
+# mb=(peak-base)/1048576
+# print(tracemalloc.get_traced_memory())  # Muestra el uso de memoria actual y pico
+# print(mb)
+# tracemalloc.stop()

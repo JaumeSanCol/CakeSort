@@ -33,7 +33,7 @@ def ask_for_algorithm():
     ]
 
     choice = None
-    while choice is None or choice not in range(1, 7):  # Asegura que sea una opción válida (1-6)
+    while choice is None or choice not in range(1, 8):  # Asegura que sea una opción válida (1-6)
         choice = simpledialog.askinteger(
             "Algorithm Selection",
             "Choose an algorithm:\n\n"
@@ -44,7 +44,7 @@ def ask_for_algorithm():
             "5. A* heuristic 2\n"
             "6. GS heuristic 1\n"
             "7. GS heuristic 2\n\n"
-            "Enter a number (1-6):",
+            "Enter a number (1-7):",
             minvalue=1,
             maxvalue=7
         )
